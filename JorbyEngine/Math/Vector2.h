@@ -8,7 +8,11 @@ class Vector2
 public:
 
   Vector2() noexcept;
+
+  // TODO (JK): Make these lower-case arguments
   Vector2( float X, float Y ) noexcept;
+
+  // TODO (JK): Make these lower-case arguments
   Vector2( const Vector2& Other ) noexcept;
 
   union
