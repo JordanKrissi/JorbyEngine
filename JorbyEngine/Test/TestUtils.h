@@ -24,8 +24,9 @@ typedef TestResult (*Test)();
 class TestGroup
 {
 public:
-  // TODO (JK): Give ability to add tests
 
+  // TODO (JK): Give ability to add tests
+  void AddTest( std::string testName, Test test );
   void ExecuteAll() const;
   void FormatOutput( std::string testName, Test test ) const;
 private:

@@ -1,5 +1,7 @@
 #pragma once
 
+#define EPSILON 0.000001f
+
 namespace JUtils
 {
 

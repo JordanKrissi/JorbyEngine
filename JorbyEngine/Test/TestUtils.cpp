@@ -3,6 +3,11 @@
 #include <cstdio>
 #include <ctime>
 
+void JTest::TestGroup::AddTest( std::string testName, Test test )
+{
+  m_tests.push_back( std::make_pair( testName, test ) );
+}
+
 void JTest::TestGroup::ExecuteAll() const
 {
   for( std::pair< std::string, Test > test : m_tests )

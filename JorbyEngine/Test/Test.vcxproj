@@ -143,10 +143,12 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="MathTests.cpp" />
     <ClCompile Include="TestMain.cpp" />
     <ClCompile Include="TestUtils.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="MathTests.h" />
     <ClInclude Include="TestUtils.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
